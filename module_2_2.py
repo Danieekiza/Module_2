@@ -7,4 +7,4 @@ if first == second == third:
 elif first == second or second == third or first == third:
     print(2)
 else:
-    print(1)
+    print(0)
