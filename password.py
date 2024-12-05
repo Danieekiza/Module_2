@@ -17,4 +17,4 @@ def password(n):
 
 n, pswrd = password(int(input('Введите число из первого поля: ')))
 
-print(f'{n} - {pswrd}')  # вывод как в примере задачи
+print(f'{n} - {pswrd}')  # вывод точно как в примере задачи
