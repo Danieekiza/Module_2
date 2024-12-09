@@ -1,7 +1,7 @@
 # function
 def get_matrix(n, m, value):
     matrix = []
-    for arg in n, m, value:  # проверка на нулевое значение
+    for arg in n, m, value:  # проверка на значение <= 0
         if arg <= 0:
             return matrix
 
