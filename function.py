@@ -1,6 +1,10 @@
-# def
+# function
 def get_matrix(n, m, value):
     matrix = []
+    for arg in n, m, value:  # проверка на нулевое значение
+        if arg <= 0:
+            return matrix
+
     for i in range(n):  # n - колличество строк
         matrix.append([])
         for j in range(m):  # m - колличество столбцов
@@ -9,10 +13,11 @@ def get_matrix(n, m, value):
     return matrix
 
 
-result1 = get_matrix(2, 2, 10)
-result2 = get_matrix(3, 5, 42)
-result3 = get_matrix(4, 2, 13)
+result1 = get_matrix(-1, -3, 10)
+result2 = get_matrix(3, 0, 8)
+result3 = get_matrix(4, 2, 3)
 
 print(result1)
 print(result2)
 print(result3)
+
